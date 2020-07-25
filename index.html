@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="boot.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<style>
+    html,body{
+        margin: 0px;
+        padding: 0px;
+    }
+    *{
+        box-sizing: border-box
+    }
+    body::-webkit-scrollbar{
+        width: 4px;
+    }
+    body::-webkit-scrollbar-thumb{
+        background-color: brown
+    }
+    .main1{
+        height: 100vh;
+        width: 100%;
+        background-image: url('2.jpg');
+        background-size: cover;
+        background-position: center;
+       
+    }
+    .card1{
+        border: none;
+    }  
+    .head{
+        font-size: 55px
+    }
+    .navv{
+        z-index: 1000000;
+    }
+    .card2{
+        border:2px solid rgb(59, 177, 217);
+        color:rgb(59, 177, 217)
+    }
+    i{
+        color:rgb(59, 177, 217)
+    }
+    hr{
+       background-color:  rgb(59, 177, 217)
+    }
+   
+	.caption-style-1 .card{
+		float: left;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.caption-style-1 .card:hover .caption{
+		opacity: 1;
+
+	}
+	.caption-style-1 .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+
+	}
+	.caption-style-1 .blur{
+		background-color: rgba(0,0,0,0.65);
+		height: 100%;
+		width: 100%;
+		z-index: 5;
+		position: absolute;
+	}
+
+	.caption-style-1 .caption-text h1{
+		
+		font-size: 24px;
+	}
+	.caption-style-1 .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		text-align: center;
+	}
+    .main4{
+        background-color: rgb(0, 180, 203);
+        color: white;
+        text-align: center
+    }
+    .b{
+        color: rgb(0, 180, 203);
+    }
+    legend>i{
+        color: white
+    }
+    .main6{
+        height: 60vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .main7{
+        background-color: rgb(0, 180, 203);
+        color: white
+    }
+    .icon>i{
+        color: white
+    }
+    .nav-link:hover{
+        text-decoration: underline
+    }
+</style>
+<body>
+        <div class="main1">
+                <nav class="navbar navv navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand ml-5" href="#"><h1>OTOC</h1></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                          <ul class="navbar-nav mt-2 mt-lg-0 pr-5 mr-4">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#a">About</a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#s">Services</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#w">Works</a>
+                            </li>
+                            
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#b">Blog</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="card pt-5 mt-5 text-center w-75 bg-transparent card1">
+                        <div class="card-body text-white">
+                          <h1 class="card-title mt-5 head" >OTOC THEME</h1>
+                          <h4 class="card-text pt-2">The reflection of the impact of creativity</h4>
+                          <button type="button" class="btn btn-outline-info text-white mt-5">SEE MORE</button>
+                        </div>
+                      </div>
+                </div>
+              </div>
+              
+        </div>
+    <div class="main2" id="s">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div  class="card mt-5 bg-transparent py-0 card2">
+                    <div class="card-body py-2">
+                            <i class="fas fa-cog"></i> &nbsp; SERVICES
+                    </div>
+                  </div>
+            </div>
+            <div class="row justify-content-center">
+                    <div class="card mt-2 text-center col-lg-7 bg-transparent py-0 card1">
+                        <div class="card-body py-2">
+                          <p>Lorem ipsum dolor sit amet consectetur elit. Reprehenderit molestiae officiis accusamus maxime, quo ducimus! Doloremque dolor nemo tempora veritatis.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="card text-center px-2 col-lg-3 bg-transparent col-md-6 col-sm-12 card1">
+                        <div class="card-body">
+                            <h1 class="card-title"><i class="fas fa-video"></i></h1>
+                            <h4>Videos</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           
+                        </div>
+                    </div>
+                    <div class="card text-center col-lg-3 col-md-6 col-sm-12 card1">
+
+                        <div class="card-body">
+                            <h1 class="card-title"><i class="fas fa-camera"></i></h1>
+                            <h4>Photography</h4>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                               
+                        </div>
+                    </div>
+                    <div class="card text-center col-lg-3 col-md-6 col-sm-12 card1">
+    
+                        <div class="card-body">
+                            <h1 class="card-title"><i class="fas fa-microphone"></i></h1>
+                            <h4>Auditory</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           
+                        </div>
+                   </div>
+                    <div class="card text-center col-lg-3 col-md-6 col-sm-12 card1">
+        
+                        <div class="card-body">
+                            <h1 class="card-title"><i class="fas fa-volume-up"></i></h1>
+                            <h4>Marketing</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    <div class="main3" >
+        <hr width="100%">
+            <div class="container-fluid">
+                    <div class="row mt-5 justify-content-center">
+                        <div id="w" class="card bg-transparent py-0 card2">
+                            <div  class="card-body py-2">
+                                    <i class="fas fa-clone"></i> &nbsp; LAST WORKS
+                            </div>
+                          </div>
+                    </div>
+                    <div  class="row justify-content-center">
+                            <div class="card mt-2 text-center col-lg-7 bg-transparent py-0 card1">
+                                <div class="card-body py-4">
+                                  <p>Lorem ipsum dolor sit amet consectetur elit. Reprehenderit molestiae officiis accusamus maxime, quo ducimus! Doloremque dolor nemo tempora veritatis.</p>
+                                </div>
+                              </div>
+                        </div>
+                <div class="row my-5">
+                        <div class="card-group caption-style-1">
+                                <div class="card">
+                                  <img src="a.jpg" class="card-img-top" alt="...">
+                                  <div class="caption">
+                                        <div class="blur"></div>
+                                        <div class="caption-text">
+                                            <h1>Amazing Caption</h1>
+                                            <p>Whatever It Is - Always Awesome</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                  <img src="b.jpg" class="card-img-top" alt="...">
+                                  <div class="caption">
+                                        <div class="blur"></div>
+                                        <div class="caption-text">
+                                            <div><h1>Amazing Caption</h1></div>
+                                            <div><p>Whatever It Is - Always Awesome</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                  <img src="c.jpg" class="card-img-top">
+                                  <div class="caption">
+                                        <div class="blur"></div>
+                                        <div class="caption-text">
+                                            <h1>Amazing Caption</h1>
+                                            <p>Whatever It Is - Always Awesome</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="d.jpg" class="card-img-top">
+                                    <div class="caption">
+                                            <div class="blur"></div>
+                                            <div class="caption-text">
+                                                <h1>Amazing Caption</h1>
+                                                <p>Whatever It Is - Always Awesome</p>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="card ">
+                                    <img src="e.jpg" class="card-img-top">
+                                    <div class="caption">
+                                            <div class="blur"></div>
+                                            <div class="caption-text">
+                                                <h1>Amazing Caption</h1>
+                                                <p>Whatever It Is - Always Awesome</p>
+                                            </div>
+                                        </div>
+                                </div>
+                              </div>
+                </div>
+            </div>
+           <div class="container-fluid">
+               <div class="row mb-5">
+                    <div class="card card1 py-0 col-lg-3 col-md-12 col-sm-12">
+                            <div id="b" class="card-body">
+                                    <h5 class="card-title"> From <span class="b">BLOG</span></h5>
+                                    <hr width="20%" align="left">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+               </div>
+
+               <div class="card mx-3 card1 col-lg-4 py-0 col-md-12 col-sm-12">
+                    <div class="card-body">
+                            <span class="card-title">22 JAN
+                                    <hr width="15%" align="left">
+                            </span>   
+                       
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            
+                    </div>
+        
+    </div>
+
+       <div class="card card1 mx-3 col-lg-4 py-0 col-md-12 col-sm-12">
+               <div class="card-body">
+                    <span class="card-title">22 JAN
+                            <hr width="15%" align="left">
+                    </span>   
+               
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+        
+               </div>
+</div>
+               
+                  </div>
+           </div>
+    </div>
+    <div class="main4">
+        <div class="container">
+            <div class="row mb-5 py-5">
+                <div class="card card1 col-lg-3 col-md-6 col-sm-12 bg-transparent">
+                    <div class="card-body">
+                            <fieldset style="border:2px solid white">
+                    
+                                    <legend align="center"><i class="far fa-user"></i></legend>
+                                    <h1 align="center">56</h1>
+                        </fieldset> <br>
+                        <h5>Happy clients</h5>
+                    </div>
+                </div>
+                <div class="card col-lg-3 card1 col-md-6 col-sm-12 bg-transparent">
+                        <div class="card-body">
+                                <fieldset style="border:2px solid white">
+                    
+                                        <legend align="center"><i class="fas fa-location-arrow"></i></legend>
+                                        <h1 align="center">72</h1>
+                            </fieldset> <br>
+                            <h5>Projects</h5>
+                        </div>
+                </div>
+                <div class="card col-lg-3 card1 col-md-6 col-sm-12 bg-transparent">
+                       <div class="card-body">
+                            <fieldset style="border:2px solid white">
+                    
+                                    <legend align="center"><i class="fas fa-paperclip"></i></legend>
+                                    <h1 align="center">103</h1>
+                        </fieldset> <br>
+                        <h5>Meeting</h5>
+                       </div>
+                </div>
+                <div class="card col-lg-3 card1 col-md-6 col-sm-12 bg-transparent">
+                        <div class="card-body">
+                                <fieldset style="border:2px solid white">
+                    
+                                        <legend align="center"><i class="far fa-heart"></i></legend>
+                                        <h1 align="center">19K</h1>
+                            </fieldset> <br>
+                            <h5>Fans</h5>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main5">
+        <div class="container">
+            <div class="row px-5 mb-5" id="a">
+                    <div class="card card1 mb-3" >
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img src="a.jpg" class="card-img">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h3 class="card-title">About</h3>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi porro dolorum vitae aspernatur nihil ut cumque architecto velit error molestias eum, id perferendis distinctio quia nesciunt. Perferendis aliquam placeat sit.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+            </div>
+        </div>
+    </div>
+    <div class="main6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227159.68113915448!2d77.83992741076895!3d27.176104919171127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39740d857c2f41d9%3A0x784aef38a9523b42!2sAgra%2C+Uttar+Pradesh!5e0!3m2!1sen!2sin!4v1564628074985!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+    </div>
+    <div class="main7">
+        <div class="container">
+            <div class="row">
+                    <div class="card text-center card1 col-lg-12 col-md-12 col-sm-12 bg-transparent">
+                            <div class="card-body py-3 icon">
+                                    <i class="far fa-copyright"></i> 2014 Name of Company <b>OTOC</b> theme by <b> Elyounssi.com</b>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="jq.js"></script>
+    <script src="boot.js"></script>
+</body>
+</html>
